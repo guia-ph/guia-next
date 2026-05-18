@@ -1,0 +1,38 @@
+[
+  {
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "thumbnail": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&h=450&fit=crop",
+    "author": "Theodore M.",
+    "position": "CEO, NOM Media",
+    "company": "NOM Media",
+    "quote": "Working with this team has transformed our business operations completely.",
+    "rating": 5
+  },
+  {
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "thumbnail": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&h=450&fit=crop",
+    "author": "Matthew C.",
+    "position": "CEO, Vi Capital Lending Group",
+    "company": "Vi Capital Lending Group",
+    "quote": "Their professionalism and expertise exceeded all our expectations.",
+    "rating": 5
+  },
+  {
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "thumbnail": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=450&fit=crop",
+    "author": "Andrew K.",
+    "position": "Support Manager, ENDVR",
+    "company": "ENDVR",
+    "quote": "The results speak for themselves - incredible improvement across all metrics.",
+    "rating": 5
+  },
+  {
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "thumbnail": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&h=450&fit=crop",
+    "author": "Sarah L.",
+    "position": "Marketing Director, TechFlow",
+    "company": "TechFlow",
+    "quote": "A game-changing partnership that delivered beyond our wildest expectations.",
+    "rating": 5
+  }
+]
