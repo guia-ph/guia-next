@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/admin/'],
       },
     ],
-    sitemap: 'https://guia.ph/sitemap.xml',
+    sitemap: 'https://guia.team/sitemap.xml',
   };
 }

@@ -49,7 +49,7 @@ const Story: FC<Props> = () => {
                 <p className="text-base text-text-1-light/70 dark:text-text-1/70 leading-relaxed mb-8">
                   We're more than a remote staffing solution—we're a catalyst for change. Built on the principle that exceptional talent transcends geographical boundaries, we bridge businesses and visionary leaders with skilled professionals across the globe.
                 </p>
-                <a href="#contact" className="inline-block px-6 py-3 bg-primary-light dark:bg-primary text-white rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                <a href="https://calendly.com/guia-va-team/30min" target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-3 bg-primary-light dark:bg-primary text-white rounded-lg font-semibold hover:opacity-90 transition-opacity">
                   Get Started
                 </a>
               </div>

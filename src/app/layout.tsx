@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://guia.ph'),
+  metadataBase: new URL('https://guia.team'),
   title: {
     default: 'Guia - Premium Virtual Assistant Services from the Philippines',
     template: '%s | Guia',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://guia.ph',
+    url: 'https://guia.team',
     siteName: 'Guia',
     title: 'Guia - Premium Virtual Assistant Services from the Philippines',
     description: 'Connect with reliable VA engineers and remote professionals in the Philippines. Save up to 70% on costs while accessing top-tier talent.',

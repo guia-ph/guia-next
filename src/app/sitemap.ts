@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://guia.ph';
+  const baseUrl = 'https://guia.team';
   
   return [
     {

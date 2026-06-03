@@ -74,16 +74,17 @@ interface NavbarButtonProps {
   onClick?: () => void;
   className?: string;
   variant?: string;
+  href?: string;
 }
 
-export function NavbarButton({ children, onClick, className, variant }: NavbarButtonProps) {
-  const router = useRouter();
-  
+export function NavbarButton({ children, onClick, className, variant, href }: NavbarButtonProps) {
   const handleClick = () => {
     if (onClick) {
       onClick();
     }
-    router.push("/book");
+    if (href) {
+      window.open(href, '_blank', 'noopener,noreferrer');
+    }
   };
 
   return (

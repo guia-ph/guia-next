@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Guia - Your Remote Team Partner',
     description: 'Connect with reliable VA engineers and remote professionals in the Philippines. Save up to 70% on costs while accessing top-tier talent.',
-    url: 'https://guia.ph',
+    url: 'https://guia.team',
     images: [
       {
         url: '/images/og-image.jpg',
@@ -24,8 +24,8 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Guia',
-    url: 'https://guia.ph',
-    logo: 'https://guia.ph/guia-logo.png',
+    url: 'https://guia.team',
+    logo: 'https://guia.team/guia-logo.png',
     description: 'Premium virtual assistant and remote staffing services from the Philippines',
     address: {
       '@type': 'PostalAddress',

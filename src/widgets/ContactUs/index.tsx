@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import { Phone, Mail, Clock, Globe } from 'lucide-react';
+import { Mail, Clock, Globe } from 'lucide-react';
 
 import SectionHeader from '@/components/ui/SectionHeader';
 import SectionOpacity from '@/components/ui/SectionOpacity';
@@ -8,16 +8,10 @@ import SectionOpacity from '@/components/ui/SectionOpacity';
 const ContactUs = () => {
   const contactInfo = [
     {
-      icon: Phone,
-      label: 'Phone Number',
-      value: '+1 (718) 747-8756',
-      link: 'tel:+17187478756'
-    },
-    {
       icon: Mail,
       label: 'Email Address',
-      value: 'info@guia.ph',
-      link: 'mailto:info@guia.ph'
+      value: 'guia.va.team@gmail.com',
+      link: 'mailto:guia.va.team@gmail.com'
     },
     {
       icon: Clock,

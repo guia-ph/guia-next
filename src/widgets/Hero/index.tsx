@@ -7,7 +7,7 @@ const Hero = () => {
   const router = useRouter();
 
   const handleGetStarted = () => {
-    router.push('/book'); 
+    window.open('https://calendly.com/guia-va-team/30min', '_blank');
   };
 
   return (
