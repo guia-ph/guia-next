@@ -31,7 +31,7 @@ export const SectionHeading = ({
 }) => (
   <div className="text-center max-w-3xl mx-auto mb-16">
     {badge && (
-      <span className="inline-block px-4 py-1.5 rounded-full text-sm font-semibold bg-primary/10 text-primary mb-4">
+      <span className="inline-block px-4 py-1.5 rounded-full text-sm font-semibold bg-primary-light/10 dark:bg-primary/10 text-primary-light dark:text-primary mb-4">
         {badge}
       </span>
     )}

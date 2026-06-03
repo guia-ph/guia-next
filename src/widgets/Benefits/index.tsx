@@ -2,7 +2,7 @@
 import { FC } from 'react';
 import { motion } from 'framer-motion';
 
-import SectionTitle from '@/components/ui/SectionTitle';
+import SectionHeader from '@/components/ui/SectionHeader';
 import SectionOpacity from '@/components/ui/SectionOpacity';
 import { BENEFITS } from '@/data';
 
@@ -16,11 +16,11 @@ const Benefits: FC<Props> = () => {
     <section id="benefits" className="border-t border-gray-1-light dark:border-gray-1 bg-bg-1-light dark:bg-bg-1 py-[6vw] md:py-[8vw]">
       <SectionOpacity>
         <div className="container mx-auto px-[12vw] md:px-[4vw] max-w-[1400px]">
-          <SectionTitle title="WHY PARTNER WITH US." classes="pt-[3vw]" />
-          <div className="pt-[3vw] pb-[5vw]">
-            <p className="text-[1.1vw] lg:text-[1vw] md:text-[4vw] text-text-1-light/90 dark:text-text-1/90 leading-[1.5] mb-[4vw] md:mb-[6vw] text-center max-w-[85vw] md:max-w-full mx-auto">
-              We're committed to your success. With us, it's not just about staffing—it's about forging partnerships built on trust, excellence, and measurable outcomes.
-            </p>
+          <SectionHeader 
+            title="WHY PARTNER WITH US"
+            description="We're committed to your success. With us, it's not just about staffing—it's about forging partnerships built on trust, excellence, and measurable outcomes."
+          />
+          <div className="pb-[5vw]">
 
             {/* Mobile: Uniform single column */}
             <div className="grid grid-cols-1 gap-[4vw] lg:hidden">

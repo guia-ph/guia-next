@@ -17,16 +17,18 @@ const Hero = () => {
         <div className="flex items-center justify-between gap-[8vw] md:flex-col md:gap-[6vw]">
           {/* Left side - Content */}
           <motion.div 
-            className="flex-1 max-w-[50vw] md:max-w-full"
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
+            className="flex-1 max-w-full text-center"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-[2.5vw] lg:text-[3vw] md:text-[7vw] font-bold text-text-1-light dark:text-text-1 leading-[1.1] mb-[1.5vw] md:mb-[4vw]">
-              Your Guide to Smarter Remote Teams.
+            <h1 className="text-[80px] font-bold text-text-1-light dark:text-text-1 leading-[1.1] mb-8">
+              <span className="block">Your <span className="text-primary-light dark:text-primary">Guide</span> to</span>
+              <span className="block"><span className="text-primary-light dark:text-primary">Smarter</span> Remote</span>
+              <span className="block">Teams.</span>
             </h1>
-            <p className="text-[1.1vw] lg:text-[1vw] md:text-[4vw] text-text-1-light/80 dark:text-text-1/80 leading-[1.5] mb-[2vw] md:mb-[6vw]">
-              Build momentum with dependable remote professionals ready to support your business operations, customer experience, and growth.
+            <p className="text-[24px] text-text-1-light/80 dark:text-text-1/80 leading-[1.6] mb-12 max-w-[900px] mx-auto">
+              Build momentum with <span className="font-semibold text-text-1-light dark:text-text-1">dependable remote professionals</span> ready to support your business operations, customer experience, and growth.
             </p>
             <Button
               onClick={handleGetStarted}
@@ -34,26 +36,6 @@ const Hero = () => {
               classes="px-[2vw] py-[1vw] md:px-[5vw] md:py-[2.5vw] text-[0.9vw] lg:text-[0.85vw] md:text-[3vw] bg-primary-light dark:bg-primary text-bg-1-light dark:text-bg-1 hover:bg-primary-light/90 dark:hover:bg-primary/90 font-semibold"
               btnClasses=""
             />
-          </motion.div>
-
-          {/* Right side - CEO Image */}
-          <motion.div 
-            className="flex-1"
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <div className="relative w-full">
-              <img 
-                src='/images/allain-prof.webp'
-                alt="CEO" 
-                className="w-full h-full lg:ml-[15%]"
-              />
-            </div>
-            <div className="mt-[1.5vw] md:mt-[3vw] text-center">
-              <p className="text-[1vw] lg:text-[0.9vw] md:text-[3.5vw] font-semibold text-text-1-light dark:text-text-1">Allain Zenith Sabandal</p>
-              <p className="text-[0.85vw] lg:text-[0.75vw] md:text-[2.8vw] text-text-1-light/70 dark:text-text-1/70">Founder & CEO</p>
-            </div>
           </motion.div>
         </div>
       </div>

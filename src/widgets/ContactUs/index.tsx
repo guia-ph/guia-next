@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { Phone, Mail, Clock, Globe } from 'lucide-react';
 
-import SectionTitle from '@/components/ui/SectionTitle';
+import SectionHeader from '@/components/ui/SectionHeader';
 import SectionOpacity from '@/components/ui/SectionOpacity';
 
 const ContactUs = () => {
@@ -37,9 +37,9 @@ const ContactUs = () => {
     <section id="contact" className="border-t border-gray-1-light dark:border-gray-1 bg-gradient-to-b from-bg-1-light to-bg-1-light dark:from-bg-1 dark:to-bg-1 py-[6vw] md:py-[4vw] relative overflow-hidden">
       <SectionOpacity>
         <div className="container mx-auto px-[12vw] md:px-[4vw] max-w-[1400px] relative z-10">
-          <SectionTitle title="Get in Touch." classes="pt-[3vw]" />
+          <SectionHeader title="GET IN TOUCH" />
           
-          <div className="pt-[3vw] pb-[5vw]">
+          <div className="pb-[5vw]">
             <div className="max-w-[70vw] md:max-w-full mx-auto">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}

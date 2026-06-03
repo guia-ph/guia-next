@@ -6,8 +6,8 @@ export const NAV_ITEMS = [
     link: '#about',
   },
   {
-    title: 'Services',
-    link: '#services',
+    title: 'Calculator',
+    link: '#calculator',
   },
   {
     title: 'How It Works',
@@ -186,16 +186,16 @@ export const FAQ_ITEMS = [
 ];
 
 export const CLIENT_INDUSTRIES = [
-  { name: 'E-commerce & Retail', icon: ShoppingCart },
-  { name: 'Real Estate', icon: Home },
-  { name: 'Healthcare & Medical', icon: Heart },
-  { name: 'Legal Services', icon: Scale },
-  { name: 'Accounting & Finance', icon: Calculator },
-  { name: 'Marketing Agencies', icon: Megaphone },
-  { name: 'Technology & SaaS', icon: Laptop },
-  { name: 'Consulting Services', icon: Briefcase },
-  { name: 'Education & Training', icon: GraduationCap },
-  { name: 'Hospitality & Travel', icon: Plane },
+  { name: 'E-commerce & Retail', icon: ShoppingCart, desc: 'Customer support, order processing, and inventory management for online stores.' },
+  { name: 'Real Estate', icon: Home, desc: 'Property management, lead generation, and administrative support for agencies.' },
+  { name: 'Healthcare & Medical', icon: Heart, desc: 'Medical billing, patient scheduling, and healthcare administrative services.' },
+  { name: 'Legal Services', icon: Scale, desc: 'Legal research, document preparation, and case management support.' },
+  { name: 'Accounting & Finance', icon: Calculator, desc: 'Bookkeeping, financial reporting, and accounts management services.' },
+  { name: 'Marketing Agencies', icon: Megaphone, desc: 'Content creation, social media management, and campaign coordination.' },
+  { name: 'Technology & SaaS', icon: Laptop, desc: 'Technical support, QA testing, and development assistance.' },
+  { name: 'Consulting Services', icon: Briefcase, desc: 'Research, data analysis, and project coordination for consultants.' },
+  { name: 'Education & Training', icon: GraduationCap, desc: 'Course administration, student support, and content development.' },
+  { name: 'Hospitality & Travel', icon: Plane, desc: 'Booking management, customer service, and travel coordination.' },
 ];
 
 export const HIRING_PROCESS = [

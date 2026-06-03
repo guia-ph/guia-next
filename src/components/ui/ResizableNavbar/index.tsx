@@ -12,7 +12,7 @@ interface NavbarProps {
 
 export function Navbar({ children }: NavbarProps) {
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-bg-1-light/80 dark:bg-bg-1/80 backdrop-blur-md border-b border-gray-1-light dark:border-gray-1">
+    <div className="fixed top-0 left-0 right-0 z-50 bg-bg-1-light/80 dark:bg-bg-1/40 backdrop-blur-md border-b border-gray-1-light dark:border-gray-1">
       {children}
     </div>
   );
@@ -24,7 +24,7 @@ interface NavBodyProps {
 
 export function NavBody({ children }: NavBodyProps) {
   return (
-    <div className="hidden lg:flex items-center justify-between px-[4vw] py-[1.5vw] max-w-[1400px] mx-auto">
+    <div className="hidden lg:flex items-center justify-between px-[4vw] py-[1.5vw] mx-auto">
       {children}
     </div>
   );
@@ -41,7 +41,7 @@ export function NavItems({ items }: NavItemsProps) {
         <a
           key={`nav-item-${idx}`}
           href={item.link}
-          className="text-[0.9vw] lg:text-[0.85vw] text-text-1-light dark:text-text-1 hover:text-primary-light dark:hover:text-primary transition-colors"
+          className="text-[0.9vw] lg:text-[1vw] text-text-1-light dark:text-text-1 hover:text-primary-light dark:hover:text-primary transition-colors"
         >
           {item.title}
         </a>

@@ -3,7 +3,7 @@ import { FC, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 
-import SectionTitle from '@/components/ui/SectionTitle';
+import SectionHeader from '@/components/ui/SectionHeader';
 import SectionOpacity from '@/components/ui/SectionOpacity';
 import { FAQ_ITEMS } from '@/data';
 
@@ -20,8 +20,11 @@ const FAQ: FC<Props> = () => {
     <section id="faq" className="border-t border-gray-1-light dark:border-gray-1 bg-gradient-to-b from-bg-1-light to-bg-1-light dark:from-bg-1 dark:to-bg-1 py-[6vw] md:py-[4vw]">
       <SectionOpacity>
         <div className="container mx-auto px-[12vw] md:px-[4vw] max-w-[1400px]">
-          <SectionTitle title="FAQ." classes="pt-[3vw]" />
-          <div className="pt-[3vw] pb-[5vw]">
+          <SectionHeader 
+            title="FAQ" 
+            description="Got questions? We've got answers. Find everything you need to know about working with our remote professionals and how we can help your business grow."
+          />
+          <div className="pb-[5vw]">
           <div className="max-w-[70vw] md:max-w-full mx-auto space-y-[1.5vw] md:space-y-[3vw]">
             {FAQ_ITEMS.map((item, index) => (
               <div
